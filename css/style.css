@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
 /*paleta de colores
 .color1 {color: #84d1ff;}
 .color2 {color: #dcf7ff;}
@@ -37,6 +43,7 @@
     flex-direction: column;
     text-align: center;
     background-color: #dcf7ff;
+    margin-top: 0 auto;
     padding: 20px;
     background-image: linear-gradient(to right, #0f1b35, #dcf7ff);
 }
@@ -48,6 +55,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 0 auto;
     padding: 20px;
     animation-name: primeraAnimacion;
     animation-duration: 10s;
@@ -74,6 +82,7 @@
 
 .primeraSeccion h2 {
     font-size: 2rem;
+    margin-top: 0 auto;
 }
 
 /*segunda seccion*/
@@ -83,12 +92,14 @@
     display: flex;
     flex-direction: column;
     background-color: #dcf7ff;
+    margin-top: 0 auto;
 }
 
 .segundaSeccion p {
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-top: 0 auto;
 }
 
 /*form*/
@@ -100,14 +111,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 0 auto;
 }
 
 .form h3 {
     font-size: 2rem;
+    margin-top: 0 auto;
 }
 
 .form div {
-    margin: 2rem;
+    margin-top: 0 auto;    
     display: flex;
     flex-direction: column;
 }
@@ -115,12 +128,12 @@
 .form input[type=submit]:hover {
     background-color: black;
     color: white;
-}
+    margin-top: 0 auto;}
 
 .form input:focus {
     width: 400px;
     transition: 2s;
-    margin: 0 auto;
+    margin-top: 0 auto;
 }
 
 /*footer*/
@@ -130,6 +143,7 @@
     display: flex;
     justify-content: center;
     background-image: linear-gradient(to right, #0f1b35, #dcf7ff);
+    margin-top: 0 auto;
 }
 
 @keyframes primeraAnimacion {
